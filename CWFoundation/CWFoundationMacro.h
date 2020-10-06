@@ -118,20 +118,5 @@ ReplaceMethod(Class _class, SEL _originSelector, SEL _newSelector) {
     }
 }
 
-
-static inline void dispatch_async_on_main_queue(void (^block)()) {
-
-    if (pthread_main_np()) {
-
-        block();
-
-    } else {
-
-        dispatch_async(dispatch_get_main_queue(), block);
-
-    }
-
-}
-
 #endif /* CWFoundationMacro_h */
 
