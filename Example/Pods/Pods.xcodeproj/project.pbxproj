@@ -74,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		049A7383252C04C7001C5A80 /* CWKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CWKitMacro.h; path = CWFoundation/CWKitMacro.h; sourceTree = "<group>"; };
 		05F54311699FAB349413341129AE989F /* Pods-CWFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CWFoundation_Example-dummy.m"; sourceTree = "<group>"; };
 		08166DC5C2CB2DFCC81D6057D53497E4 /* Pods-CWFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CWFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0A2B61D388100A9A398A847AF9EC54F6 /* Pods_CWFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CWFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -279,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				889FDDE0237BF4A9004E3BED /* CWFoundationMacro.h */,
+				049A7383252C04C7001C5A80 /* CWKitMacro.h */,
 				613B3E3BD61A58C6949494D4551F2B33 /* CWFoundation.h */,
 				12C0879E5D854EC98169744539B01EA0 /* Pod */,
 				25D968E8ACA43E03B8715754D7C36D1D /* Support Files */,
