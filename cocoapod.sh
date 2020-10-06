@@ -37,10 +37,9 @@ fi
 
 
 
-git commit -m "update podspec"
+git commit $podSpecName.podspec -m "update podspec"
 git push
 git tag -m "update podspec" $thisTag
 git push --tags
 
-# pod repo push PrivatePods --sources=$sources
- pod repo push CWPod $podSpecName.podspec --allow-warnings
+pod repo push CWPod $podSpecName.podspec --allow-warnings

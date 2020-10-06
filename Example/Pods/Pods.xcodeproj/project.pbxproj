@@ -33,14 +33,6 @@
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A83AE4362CF1D4764E00E4602A2D648 /* FBSnapshotTestCase-dummy.m */; };
 		877FFD83CEF4972C4F7E8E988EF70393 /* Pods-CWFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F03FD895F2179B59261362CF06CC92 /* Pods-CWFoundation_Tests-dummy.m */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */; };
-		8844A2E2237EABDC00B56F93 /* NSDate+CWAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8844A2E0237EABDC00B56F93 /* NSDate+CWAdd.h */; };
-		8844A2E3237EABDC00B56F93 /* NSDate+CWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8844A2E1237EABDC00B56F93 /* NSDate+CWAdd.m */; };
-		889FDDE3237C1A98004E3BED /* NSData+CWAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 889FDDE1237C1A98004E3BED /* NSData+CWAdd.h */; };
-		889FDDE4237C1A98004E3BED /* NSData+CWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 889FDDE2237C1A98004E3BED /* NSData+CWAdd.m */; };
-		889FDDE7237C1B94004E3BED /* NSString+CWAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 889FDDE5237C1B94004E3BED /* NSString+CWAdd.h */; };
-		889FDDE8237C1B94004E3BED /* NSString+CWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 889FDDE6237C1B94004E3BED /* NSString+CWAdd.m */; };
-		88C24AF2237E7BDF002773C2 /* NSArray+CWAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C24AF0237E7BDF002773C2 /* NSArray+CWAdd.h */; };
-		88C24AF3237E7BDF002773C2 /* NSArray+CWAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C24AF1237E7BDF002773C2 /* NSArray+CWAdd.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C8BBFE2D9E3A9C566221B1DE04E91C /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */; };
@@ -109,15 +101,7 @@
 		7AB500CFA6ADFF6418802FD9F677832C /* Pods-CWFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CWFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		82D2DF1ABBBD85F5E079D7D0EB5479BC /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		8844A2E0237EABDC00B56F93 /* NSDate+CWAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+CWAdd.h"; path = "CWFoundation/NSDate+CWAdd.h"; sourceTree = "<group>"; };
-		8844A2E1237EABDC00B56F93 /* NSDate+CWAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+CWAdd.m"; path = "CWFoundation/NSDate+CWAdd.m"; sourceTree = "<group>"; };
 		889FDDE0237BF4A9004E3BED /* CWFoundationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWFoundationMacro.h; path = CWFoundation/CWFoundationMacro.h; sourceTree = "<group>"; };
-		889FDDE1237C1A98004E3BED /* NSData+CWAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSData+CWAdd.h"; path = "CWFoundation/NSData+CWAdd.h"; sourceTree = "<group>"; };
-		889FDDE2237C1A98004E3BED /* NSData+CWAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSData+CWAdd.m"; path = "CWFoundation/NSData+CWAdd.m"; sourceTree = "<group>"; };
-		889FDDE5237C1B94004E3BED /* NSString+CWAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSString+CWAdd.h"; path = "CWFoundation/NSString+CWAdd.h"; sourceTree = "<group>"; };
-		889FDDE6237C1B94004E3BED /* NSString+CWAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSString+CWAdd.m"; path = "CWFoundation/NSString+CWAdd.m"; sourceTree = "<group>"; };
-		88C24AF0237E7BDF002773C2 /* NSArray+CWAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSArray+CWAdd.h"; path = "CWFoundation/NSArray+CWAdd.h"; sourceTree = "<group>"; };
-		88C24AF1237E7BDF002773C2 /* NSArray+CWAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSArray+CWAdd.m"; path = "CWFoundation/NSArray+CWAdd.m"; sourceTree = "<group>"; };
 		88EE4F95531D217A595AA8D85A24FA39 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -296,14 +280,6 @@
 			children = (
 				889FDDE0237BF4A9004E3BED /* CWFoundationMacro.h */,
 				613B3E3BD61A58C6949494D4551F2B33 /* CWFoundation.h */,
-				8844A2E0237EABDC00B56F93 /* NSDate+CWAdd.h */,
-				8844A2E1237EABDC00B56F93 /* NSDate+CWAdd.m */,
-				889FDDE1237C1A98004E3BED /* NSData+CWAdd.h */,
-				889FDDE2237C1A98004E3BED /* NSData+CWAdd.m */,
-				889FDDE5237C1B94004E3BED /* NSString+CWAdd.h */,
-				889FDDE6237C1B94004E3BED /* NSString+CWAdd.m */,
-				88C24AF0237E7BDF002773C2 /* NSArray+CWAdd.h */,
-				88C24AF1237E7BDF002773C2 /* NSArray+CWAdd.m */,
 				12C0879E5D854EC98169744539B01EA0 /* Pod */,
 				25D968E8ACA43E03B8715754D7C36D1D /* Support Files */,
 			);
@@ -383,14 +359,10 @@
 			files = (
 				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
 				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
-				889FDDE3237C1A98004E3BED /* NSData+CWAdd.h in Headers */,
-				88C24AF2237E7BDF002773C2 /* NSArray+CWAdd.h in Headers */,
 				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
-				889FDDE7237C1B94004E3BED /* NSString+CWAdd.h in Headers */,
 				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
 				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
 				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
-				8844A2E2237EABDC00B56F93 /* NSDate+CWAdd.h in Headers */,
 				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
 				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
 			);
@@ -531,15 +503,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				889FDDE4237C1A98004E3BED /* NSData+CWAdd.m in Sources */,
 				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
 				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
 				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
-				88C24AF3237E7BDF002773C2 /* NSArray+CWAdd.m in Sources */,
-				889FDDE8237C1B94004E3BED /* NSString+CWAdd.m in Sources */,
 				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
 				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
-				8844A2E3237EABDC00B56F93 /* NSDate+CWAdd.m in Sources */,
 				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
 				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
 				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,

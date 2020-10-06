@@ -5,12 +5,9 @@
 //  Created by JackChen on 2019/11/13.
 //
 
-#ifndef CWFoundation_h
-#define CWFoundation_h
+#if __has_include (<CWFoundation/CWFoundation.h>)
+#import <CWFoundation/CWFoundationMacro.h>
 
-#include <CWFoundation/NSDate+CWAdd.h>
-#include <CWFoundation/NSData+CWAdd.h>
-#include <CWFoundation/NSString+CWAdd.h>
-#include <CWFoundation/NSArray+CWAdd.h>
-
-#endif /* CWFoundation_h */
+#else
+#import "CWFoundationMacro.h"
+#endif
